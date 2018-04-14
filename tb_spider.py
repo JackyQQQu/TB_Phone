@@ -34,7 +34,7 @@ def proxy_get():
     ip_list = None
     order = "1656e0992966b89d56c14ccff0c88392"
     api_url = "http://dynamic.goubanjia.com/dynamic/get/" + order + ".html?sep=3"
-    proxy = urllib.request.ProxyHandler({"http": "124.133.230.254:80"})
+    proxy = urllib.request.ProxyHandler({"http": ""})
     opr = urllib.request.build_opener(proxy, urllib.request.HTTPHandler)
     urllib.request.install_opener(opr)
     try:

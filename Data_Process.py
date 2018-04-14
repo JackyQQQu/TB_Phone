@@ -238,7 +238,6 @@ core_result3 = core_result3/core_sum
 # pp.title("不同核心数手机的市场占比")
 
 # 手机特点/卖点词云
-'''
 pic = imread("E:\\编程学习\\Project\\taobao\\timg.png")
 wc = WordCloud(background_color='white',
                max_words=300,
@@ -268,7 +267,7 @@ wc.generate(tag_wd)
 # pp.axis('off')
 # 保存图片
 # wc.to_file("E:\\编程学习\\Project\\taobao\\1.png")
-'''
+
 # 对价格、销量、销售商数进行聚类分析
 '''
 if __name__ == '__main__':
